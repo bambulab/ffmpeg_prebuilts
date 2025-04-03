@@ -7,7 +7,7 @@ ffmpeg prebuilt libraries used in Bambu Studio
 
 3. Modify the "MYSYS2_PATH/mysys2.shell.cmd" file "rem set MSYS2_PATH_TYPE=inherit" to "set MSYS2_PATH_TYPE=inherit"; 
 
-4. Start "X64 Native Tools Command Prompt for VS 2022" and run "MYSYS2_PATH/mysys2.shell.cmd"; 
+4. Start "X64 Native Tools Command Prompt for VS 2022" and run "MYSYS2_PATH/msys2.shell.cmd"; 
 
 5. Install pacman tools "pacman -S diffutils make pkg-config yasm" in mysys2 window; 
 
