@@ -3,17 +3,17 @@ ffmpeg prebuilt libraries used in Bambu Studio
 
 1. Install visual studio 2022; 
 
-2. Insatll msys2: https://repo.msys2.org/distrib/msys2-x86_64-latest.exe; 
+2. Install msys2: https://repo.msys2.org/distrib/msys2-x86_64-latest.exe; 
 
 3. Modify the "MYSYS2_PATH/mysys2.shell.cmd" file "rem set MSYS2_PATH_TYPE=inherit" to "set MSYS2_PATH_TYPE=inherit"; 
 
 4. Start "X64 Native Tools Command Prompt for VS 2022" and run "MYSYS2_PATH/msys2.shell.cmd"; 
 
-5. Install pacman tools "pacman -S diffutils make pkg-config yasm" in mysys2 window; 
+5. Install pacman tools "pacman -S diffutils make pkg-config yasm" in msys2 window; 
 
 6. Download ffmpeg source 7.0.2: https://codeload.github.com/FFmpeg/FFmpeg/zip/refs/tags/n7.0.2
 
-7. cd ffmpeg sourece directory in mysys2 shell; 
+7. cd ffmpeg source directory in msys2 shell; 
 
 8. Run command
 ```
